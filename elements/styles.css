@@ -1,0 +1,67 @@
+/* Elements */
+
+body {
+	background-color: grey;
+	color: black;
+	font-family: sans-serif;
+	line-height: 0;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+
+.line {
+	height: 3px;
+	width: 50%;
+	background-color: white;
+	transform: rotate(-35deg);
+}
+
+.line-2 {
+	transform: rotate(5deg);
+	position: absolute;
+	top: 5em;
+}
+.line-3{
+	transform:rotate(20deg);
+	position: absolute;
+	top:5em;
+	background color:blue;
+}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.triangle-up {
+	width: 10;
+	height: 20;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 75px solid transparent;
+	color: linear-gradient(red, yellow);
+}
+.triangle-up {
+	width: 0;
+	height: 20;
+	border-right: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 100px solid pink;
+	position: fixed;
+
+}
+.triangle-down{
+	width:9
+	height:0
+	border-right:25px solid transparent;
+	border-bottom:25px solid transparent;
+	border-bottom:100px navy;
+	position: fixed;
+}
+</style>
+</head>
+<body>
+
+
+<div class="triangle-up"></div>
+
+</body>
+</html> 
